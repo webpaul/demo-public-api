@@ -10,5 +10,5 @@ COPY . ./
 EXPOSE 80
 
 # Start the application using dotnet
-ENTRYPOINT ["dotnet", "Demo.PublicApi.dll"]
+ENTRYPOINT ["dotnet", "api.dll"]
 
